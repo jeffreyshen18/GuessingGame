@@ -48,11 +48,11 @@ public class GuessingGame {
               }
             } else {
               //Reprompts user for input if incorrect input was entered
-              System.out.println("Invalid input.");
+              System.out.print("Invalid input. ");
             }
             // Reprompts user for input if incorrect input was entered
           } else {
-            System.out.println("Invalid input.");
+            System.out.print("Invalid input. ");
           }
         }
       }
